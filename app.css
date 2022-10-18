@@ -1,0 +1,16 @@
+.table {
+  width: 0%;
+}
+
+.td {
+  padding: 0;
+}
+
+.table>:not(caption)>*>* {
+  padding: 0.1rem;
+}
+/* 
+.timeslot-button {
+  padding-top: 0;
+  padding-bottom: 0;
+} */

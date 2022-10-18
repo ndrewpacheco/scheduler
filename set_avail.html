@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Calendar API Quickstart</title>
+    <meta charset="utf-8" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Set Availability:</h3>
+      <form action="">
+        <fieldset>
+          <legend>Sunday</legend>
+
+          <label for="sunday-start">Start:</label>
+          <input
+            type="time"
+            id="sunday-start"
+            name="sunday-start"
+            default="9:00"
+          />
+          <label for="sunday-end">End:</label
+          ><input id="sunday-end" name="sunday-end" type="time" />
+          <label for="dayoff">Day Off?</label>
+          <input type="checkbox" />
+        </fieldset>
+        <fieldset>
+          <legend>Monday</legend>
+
+          <label for="monday-start">Start:</label>
+          <input type="time" id="monday-start" name="monday-start" />
+          <label for="monday-end">End:</label
+          ><input id="monday-end" name="monday-end" type="time" />
+          <label for="dayoff">Day Off?</label>
+          <input type="checkbox" />
+        </fieldset>
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
